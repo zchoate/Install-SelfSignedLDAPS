@@ -18,7 +18,9 @@ Install LDAPS certificate signed by self-signed CA.
     Specify validity of cert in years.
     Must be less than or equal to CA validity.
 ### EXAMPLE
-    `Install-SelfSignedLDAPS.ps1 -exportCerts -exportPath "C:\Certs" -caValidYears 5 -certValidYears 5`
+```
+Install-SelfSignedLDAPS.ps1 -exportCerts -exportPath "C:\Certs" -caValidYears 5 -certValidYears 5
+```
 ### NOTES
     Version:        0.1
     Last updated:   04/14/2020
