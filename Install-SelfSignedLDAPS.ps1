@@ -22,7 +22,7 @@
     Last updated:   04/14/2020
     Creation date:  04/14/2020
     Author:         Zachary Choate
-    URL:            
+    URL:            https://raw.githubusercontent.com/zchoate/Install-SelfSignedLDAPS/master/Install-SelfSignedLDAPS.ps1
 #>
 
 param(
