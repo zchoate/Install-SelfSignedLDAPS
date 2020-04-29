@@ -65,7 +65,7 @@ If(!(Test-Path "HKLM:\SOFTWARE\Microsoft\Cryptography\Services\NTDS\SystemCertif
         If($thumbprint -eq $currentCert.PSChildName) {
             Break
         } else {
-            Remove-Item -Path $currentCert -Force
+            Remove-Item -Path "HKLM:\SOFTWARE\Microsoft\Cryptography\Services\NTDS\SystemCertificates\My\Certificates\$($currentCert.PSChildName)" -Force
         }
     }
 }
