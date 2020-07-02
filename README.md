@@ -26,4 +26,4 @@ Install-SelfSignedLDAPS.ps1 -exportCerts -exportPath "C:\Certs" -caValidYears 5 
     Last updated:   04/14/2020
     Creation date:  04/14/2020
     Author:         Zachary Choate
-    URL:            https://raw.githubusercontent.com/zchoate/Install-SelfSignedLDAPS/master/Install-SelfSignedLDAPS.ps1
+    URL:            https://raw.githubusercontent.com/zchoate/Install-SelfSignedLDAPS/main/Install-SelfSignedLDAPS.ps1
